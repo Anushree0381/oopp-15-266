@@ -3,18 +3,12 @@ using namespace std;
 
 class Calculator {
 public:
-
-    // Inline function
     inline int square(int x) {
         return x * x;
     }
-
-    // Default arguments
     int add(int a, int b = 0) {
         return a + b;
     }
-
-    // Function overloading
     int multiply(int a, int b) {
         return a * b;
     }

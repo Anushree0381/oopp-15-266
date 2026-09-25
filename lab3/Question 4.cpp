@@ -4,22 +4,19 @@ using namespace std;
 class Area {
 public:
 
-    // Circle
     double area(double radius) {
         return 3.14159 * radius * radius;
     }
 
-    // Rectangle
+
     double area(double length, double width) {
         return length * width;
     }
 
-    // Square
     int area(int side) {
         return side * side;
     }
 
-    // Triangle
     double area(double base, double height, bool triangle) {
         return 0.5 * base * height;
     }
