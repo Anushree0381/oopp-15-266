@@ -47,13 +47,10 @@ int main() {
 
     cout << "\nEnter side of square: ";
     cin >> side;
-
     cout << "Area of Square = "
          << a.area(side) << endl;
-
     cout << "\nEnter base and height of triangle: ";
     cin >> base >> height;
-
     cout << "Area of Triangle = "
          << a.area(base, height, true) << endl;
 
