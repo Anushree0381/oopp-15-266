@@ -26,15 +26,9 @@ public:
 
 int main() {
     Calculator c;
-
-    // Inline function
     cout << "Square of 5 = " << c.square(5) << endl;
-
-    // Default argument
     cout << "Add with two values = " << c.add(10, 20) << endl;
     cout << "Add with one value = " << c.add(10) << endl;
-
-    // Function overloading
     cout << "Integer multiplication = "
          << c.multiply(5, 4) << endl;
 
