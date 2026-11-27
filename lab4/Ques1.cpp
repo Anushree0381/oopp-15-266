@@ -11,7 +11,7 @@ public:
     double price;
 };
 
-// Function to display all items
+
 void displayCart(const vector<Item>& cart) {
     cout << "\n--------------- SHOPPING CART ---------------\n";
 
@@ -31,7 +31,7 @@ void displayCart(const vector<Item>& cart) {
     }
 }
 
-// Function to calculate total amount
+
 double calculateTotal(const vector<Item>& cart) {
     double total = 0;
 
