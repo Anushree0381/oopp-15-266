@@ -88,26 +88,26 @@ int main() {
     cout << "\nOriginal Shopping Cart:";
     displayCart(cart);
 
-    // Calculate original total
+    
     cout << "\nTotal Amount Payable: Rs. "
          << fixed << setprecision(2)
          << calculateTotal(cart) << endl;
 
-    // Find most expensive item
+    
     Item expensive = findMostExpensiveItem(cart);
 
     cout << "\nMost Expensive Item: " << expensive.name;
     cout << "\nPrice: Rs. " << expensive.price << endl;
 
-    // Apply discount
+    
     applyDiscount(cart);
 
-    // Display updated cart
+    
     cout << "\nShopping Cart After Discount:";
     displayCart(cart);
 
-    // Calculate updated total
-    cout << "\nUpdated Cart Total: Rs. "
+    
+      cout << "\nUpdated Cart Total: Rs. "
          << calculateTotal(cart) << endl;
 
     return 0;
