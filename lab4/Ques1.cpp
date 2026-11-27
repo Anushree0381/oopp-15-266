@@ -84,7 +84,7 @@ int main() {
         cin >> item.price;
     }
 
-    // Display original cart
+
     cout << "\nOriginal Shopping Cart:";
     displayCart(cart);
 
