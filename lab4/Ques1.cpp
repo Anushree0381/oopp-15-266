@@ -51,7 +51,7 @@ void applyDiscount(vector<Item>& cart) {
     }
 }
 
-// Function to find the most expensive item
+
 Item findMostExpensiveItem(const vector<Item>& cart) {
     auto expensive = cart[0];
 
