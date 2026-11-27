@@ -42,7 +42,7 @@ double calculateTotal(const vector<Item>& cart) {
     return total;
 }
 
-// Function to apply 10% discount
+
 void applyDiscount(vector<Item>& cart) {
     for (auto& item : cart) {
         if (item.price > 1000) {
